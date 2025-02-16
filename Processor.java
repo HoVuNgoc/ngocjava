@@ -6,8 +6,8 @@ public class Processor {
     public static void main(String[] args) {
         StudenLit studentList = new StudenLit();
 
-        Studen student1 = new Studen("02", "Thanh Long", new Date(2006, 3, 8, "Computer Science", 4.0f);
-        Studen student2 = new Studen("01", "Phi Tinh", new Date(2006, 3, 3), "Mathematics", 4.0f);
+        Studen student1 = new Studen("02", "Ngoc", new Date(2006, 3, 2, "Computer Science", 4.0f);
+        Studen student2 = new Studen("01", "Kieu", new Date(2006, 3, 3), "Mathematics", 4.0f);
 
         studentList.addStudent(student1);
         studentList.addStudent(student2);
@@ -20,7 +20,7 @@ public class Processor {
         } else {
             System.out.println("Student not found.");
         }
-        boolean editSuccess = studentList.editStudentById("01", "Thanh Long", new Date(2006, 3, 8, "Computer Science", 4.0f);
+        boolean editSuccess = studentList.editStudentById("01", "Kieu", new Date(2006, 3, 2, "Computer Science", 4.0f);
         if (editSuccess) {
             System.out.println("Student information updated.");
         } else {
